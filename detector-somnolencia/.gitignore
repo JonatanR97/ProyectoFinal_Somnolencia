@@ -1,0 +1,21 @@
+# Entornos virtuales
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# VS Code
+.vscode/
+
+# Archivos generados por el programa
+captures/*
+logs/*
+reports/*
+
+# Mantener las carpetas en Git
+!captures/.gitkeep
+!logs/.gitkeep
+!reports/.gitkeep
